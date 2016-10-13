@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 
-def fibonnaci(number)
+def fibonacci(number)
 	if(number == 0 or number == 1)
 		return number
 	end
-	return fibonnaci(number - 1) + fibonnaci(number - 2)
+	return fibonacci(number - 1) + fibonacci(number - 2)
 end
 
-puts "#{fibonnaci(4)}"
-puts "#{fibonnaci(5)}"
-puts "#{fibonnaci(6)}"
-puts "#{fibonnaci(7)}"
-puts "#{fibonnaci(8)}"
-puts "#{fibonnaci(9)}"
+puts "#{fibonacci(4)}"
+puts "#{fibonacci(5)}"
+puts "#{fibonacci(6)}"
+puts "#{fibonacci(7)}"
+puts "#{fibonacci(8)}"
+puts "#{fibonacci(9)}"
