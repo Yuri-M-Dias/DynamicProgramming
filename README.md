@@ -1,15 +1,9 @@
 # DynamicProgramming
-Dyanmic Programming examples for a presentation
+Exemplos para o vídeo sobre Programação Dinâmica de Técnicas Avançadas em Construção de Software da UFG 2016.
 
-# Examples
-
-There are two sets of examples:
-- Fibonacci implementation
-- *SOMETHING*
-
-To each, we have made three implementations:
-- Standard recursion
-- Memoization
-- Dynamic Programming
-
-Look into each language's folder to see each implementation
+Aluno(a)s:
+Daniel de Oliveira Vasconcelos
+Gabriela Aimée Guimarães
+Gleibson Wemerson Silva
+Marcus Vinícius Silva
+Yuri Matheus Dias Pereira
