@@ -12,9 +12,6 @@ def fibonacci(number)
 	return result
 end
 
-puts "4: #{fibonacci(4)}"
-puts "5: #{fibonacci(5)}"
-puts "6: #{fibonacci(6)}"
-puts "7: #{fibonacci(7)}"
-puts "8: #{fibonacci(8)}"
-puts "9: #{fibonacci(9)}"
+puts "#{fibonacci(30)}"
+# 30 => 832040
+# 0.08 user 0.01 system 0:00.42 elapsed 22%CPU (0 avgtext + 0 avgdata 9428 max)

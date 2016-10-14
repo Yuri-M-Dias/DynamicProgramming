@@ -7,9 +7,6 @@ def fibonacci(number)
 	return fibonacci(number - 1) + fibonacci(number - 2)
 end
 
-puts "#{fibonacci(4)}"
-puts "#{fibonacci(5)}"
-puts "#{fibonacci(6)}"
-puts "#{fibonacci(7)}"
-puts "#{fibonacci(8)}"
-puts "#{fibonacci(9)}"
+puts "#{fibonacci(30)}"
+# 30 => 832040
+# 0.54 user 0.01 system 0:00.83 elapsed 66%CPU (0 avgtext+0 avgdata 9488 max)

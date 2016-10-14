@@ -13,9 +13,6 @@ def fibonacci(number)
 	return @cache[number]
 end
 
-puts "4: #{fibonacci(4)}"
-puts "5: #{fibonacci(5)}"
-puts "6: #{fibonacci(6)}"
-puts "7: #{fibonacci(7)}"
-puts "8: #{fibonacci(8)}"
-puts "9: #{fibonacci(9)}"
+puts "#{fibonacci(30)}"
+# 30 => 832040
+# 0.04 user 0.01 system 0:00.19 elapsed 32%CPU (0 avgtext + 0 avgdata 9528 max)
