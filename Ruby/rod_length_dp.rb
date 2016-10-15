@@ -1,23 +1,23 @@
 # -*- coding: utf-8 -*-
 
-def bestPriceForRodLength(valueTable, length)
-	solution = []
-	solution[0] = 0
-	(1..length).each do |i|
+def bestPriceForRodLength(priceTable, rodLength)
+	bestPrices = []
+	bestPrices[0] = 0
+	(1..rodLength).each do |i|
 		max = -1
 		(0...i).each do |j|
-			nextVal = valueTable[j] + solution[i - (j + 1)]
+			nextVal = priceTable[j] + bestPrices[i - (j + 1)]
 			max = [max, nextVal].max
-			solution[i] = max
+			bestPrices[i] = max
 		end
 	end
-	return solution[length]
+	return bestPrices[rodLength]
 end
 
-valueTable = [2, 3, 7, 8, 9, 10, 13, 15, 17, 19]
+priceTable = [2, 3, 7, 8, 9, 10, 13, 15, 17, 19]
 
-puts "#{bestPriceForRodLength(valueTable, 4)}"
-puts "#{bestPriceForRodLength(valueTable, 5)}"
-puts "#{bestPriceForRodLength(valueTable, 6)}"
-puts "#{bestPriceForRodLength(valueTable, 7)}"
-puts "#{bestPriceForRodLength(valueTable, 8)}"
+puts "#{bestPriceForRodLength(priceTable, 4)}"
+puts "#{bestPriceForRodLength(priceTable, 5)}"
+puts "#{bestPriceForRodLength(priceTable, 6)}"
+puts "#{bestPriceForRodLength(priceTable, 7)}"
+puts "#{bestPriceForRodLength(priceTable, 8)}"
